@@ -21,8 +21,7 @@ This React application allows users to upload a CSV file and display its content
 - PapaParse for CSV parsing
 
 ## Deployed Link 🌐
-
-    [Live Demo]()
+[Live Demo](https://swift-csv.onrender.com/)
 
 ## Installation 🚀
 
