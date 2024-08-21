@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# 📊 Swift CSV 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This React application allows users to upload a CSV file and display its content in a responsive, interactive table. The table supports features like pagination, row and column selection, and error handling for unsupported file formats or empty CSV files.
 
-## Available Scripts
+## Features ✨
 
-In the project directory, you can run:
+- **CSV File Upload**: Users can upload CSV files. 📁
+- **Interactive Table**: Displays parsed CSV data in a responsive table format. 📋
+  - **Pagination**: Navigate through large datasets. 📄
+  - **Scrolling**: Horizontal scrolling for wide tables. ⬅️➡️
+  - **Row Selection**: Checkboxes for selecting multiple rows. ✅
+  - **Column Selection**: Clickable column headers to select entire columns. 📊
+- **Table Styling**: Utilizes Tailwind CSS for a clean, modern look. 🎨
+- **Error Handling**: Alerts for unsupported file formats or empty CSV files. ⚠️
 
-### `npm start`
+## Technologies Used 🛠️
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React
+- Tailwind CSS
+- Flowbite react
+- PapaParse for CSV parsing
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Deployed Link 🌐
 
-### `npm test`
+    [Live Demo]()
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation 🚀
 
-### `npm run build`
+1. Clone the repository:
+   ```bash
+   git clone 
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Start the application:
+   ```bash
+   npm start
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Usage 🖥️
 
-### `npm run eject`
+- Upload a CSV file using the provided file upload component. 📤
+- View the parsed data in the interactive table. 👀
+- Use pagination to navigate through the data and select rows or columns as needed. 📅
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Sample Files 📂
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Small Dataset: [Car Dataset](https://www.kaggle.com/datasets/x1akshay/car-dataset)
+- Large Dataset: [Corona Virus Report](https://www.kaggle.com/datasets/imdevskp/corona-virus-report)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Screenshots 📸
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Screenshot 1](https://github.com/ashwekkalgutkar/swift-csv/blob/main/src/utils/ss-homepage.png?raw=true)
