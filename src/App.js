@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Papa from "papaparse";
 import FileUpload from "./components/FileUpload";
 import Table from "./components/Table";
-import logo from "./path-to-your-logo.png"; 
+import logo from "./utils/logo-transparent-png.png";
 
 const App = () => {
   const [csvData, setCsvData] = useState([]);
@@ -34,10 +34,10 @@ const App = () => {
   };
 
   return (
-    <div className="flex flex-col min-h-screen bg-gray-100 p-4">
+    <div className="flex flex-col min-h-screen ">
       {/* Logo */}
-      <div className="flex items-start mb-4">
-        <img src={logo} alt="Logo" className="h-12 w-auto" />
+      <div className="flex items-start mb-4 ">
+        <img src={logo} alt="Logo" className="h-20 w-auto mt-5" />
       </div>
       {/* Main Content */}
       <div className="flex flex-col items-center justify-center w-full">
