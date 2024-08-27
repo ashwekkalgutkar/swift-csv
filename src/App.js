@@ -15,14 +15,10 @@ const App = () => {
       setColumns(Object.keys(data[0]));
       setCsvData(data);
     }
-  };
+  };  
 
-  const handleRowSelect = (rowIndex) => {
-    setSelectedRows((prev) =>
-      prev.includes(rowIndex)
-        ? prev.filter((index) => index !== rowIndex)
-        : [...prev, rowIndex]
-    );
+  const handleRowSelect = (selectedRows) => {
+    setSelectedRows(selectedRows);
   };
 
   const handleColumnSelect = (columnIndex) => {
